@@ -29,7 +29,7 @@ from mojo_config import env, env_int, env_bool, env_float
 var host = env("HOST", default="localhost")
 var port = env_int("PORT", default=8080)
 var debug = env_bool("DEBUG", default=False)
-var rate = env_float("RATE_LIMIT", default=1.5)
+var rate = env_float("RATE_LIApache 2.0", default=1.5)
 
 # Required (raises if not set)
 var api_key = require_env("API_KEY")
@@ -121,7 +121,7 @@ pool_size = 10
 
 ## License
 
-MIT
+Apache 2.0
 
 ## Part of mojo-contrib
 
